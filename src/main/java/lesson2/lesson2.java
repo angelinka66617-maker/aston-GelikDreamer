@@ -1,3 +1,5 @@
+package lesson2;
+
 import java.util.Arrays;
 
 public class lesson2 {
@@ -16,14 +18,12 @@ public class lesson2 {
         multiplyLessThanSix();
         squareMassive();
         twoArguments(5, 10);
-
     }
 
     public static void printThreeWords() {
         System.out.print("Orange\n");
         System.out.print("Banana\n");
         System.out.print("Apple\n");
-
     }
 
     public static void checkSumSig() {
@@ -34,7 +34,6 @@ public class lesson2 {
             System.out.println("Сумма положительная");
         } else {
             System.out.println("Сумма отрицательная");
-
         }
     }
 
@@ -49,7 +48,6 @@ public class lesson2 {
         }
     }
 
-
     public static void compareNumbers() {
         int a = 30;
         int b = 100;
@@ -57,10 +55,8 @@ public class lesson2 {
             System.out.println("a>=b");
         } else {
             System.out.println("a<b");
-
         }
     }
-
 
     public static boolean checkSumRange(int a, int b) {
         int sum = a + b;
@@ -72,7 +68,6 @@ public class lesson2 {
         }
         System.out.println(d);
         return d;
-
     }
 
     public static void chekNumbers(int a) {
@@ -83,7 +78,6 @@ public class lesson2 {
 
         }
     }
-
 
     public static boolean chekLost(int a) {
         boolean v;
@@ -96,13 +90,11 @@ public class lesson2 {
         return v;
     }
 
-
     public static void printCount(String str, int count) {
         for (int i = 0; i < count; i++) {
             System.out.println(str);
         }
     }
-
 
     public static boolean chekYears(int a) {
         boolean b;
@@ -117,7 +109,6 @@ public class lesson2 {
         return b;
     }
 
-
     public static void changeMassive() {
         int[] a = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
 
@@ -129,7 +120,6 @@ public class lesson2 {
             }
             System.out.println(a[i]);
         }
-
     }
 
     public static void createMassive() {
@@ -140,7 +130,6 @@ public class lesson2 {
         }
     }
 
-
     public static void multiplyLessThanSix() {
         int[] a = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         for (int i = 0; i < a.length; i++) {
@@ -149,10 +138,7 @@ public class lesson2 {
             }
             System.out.println(a[i]);
         }
-
-
     }
-
 
     public static void squareMassive() {
         int[][] a = new int[6][6];
@@ -167,29 +153,12 @@ public class lesson2 {
         }
     }
 
-
     public static int[] twoArguments(int len, int initialValue) {
         int[] a = new int[len];
         for (int i = 0; i < a.length; i++) {
             a[i] = initialValue;
         }
         System.out.println(Arrays.toString(a));
-
         return a;
-
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
