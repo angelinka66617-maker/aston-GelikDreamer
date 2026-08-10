@@ -14,6 +14,8 @@ public class Park {
                 '}';
     }
 
+
+
     public class Attraktsiony {
         private String name;
         private String workingHours;

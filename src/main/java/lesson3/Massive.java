@@ -11,6 +11,8 @@ lesson3.Product[] productsArray = new lesson3.Product[5];
         productsArray[3] = new Product("Iphone2", "25.08.2025", "China","USA", 250.15, false);
         productsArray[4] = new Product("Iphone3", "25.08.2025", "China","USA", 250.15, true);
 
+
+
         for ( int i=0; i<productsArray.length; i++){
             System.out.println(productsArray[i]);
         }
