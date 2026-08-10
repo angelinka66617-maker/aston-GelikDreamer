@@ -8,8 +8,6 @@ public class Product {
         private double price;
         private boolean buyersBookingStatus;
 
-
-
     public Product(String name, String productionData, String manufacturer, String countryOrOrigin, double price, boolean buyersBookingStatus) {
         this.name = name;
         this.productionData = productionData;

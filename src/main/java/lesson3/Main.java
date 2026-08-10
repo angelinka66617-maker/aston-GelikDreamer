@@ -8,9 +8,6 @@ public class Main {
                 "USA", 250.15, true);
         product.print();
 
-
-
-
        Park park1= new Park("Солнышко");
        Park.Attraktsiony attraktsion =park1.new Attraktsiony("Молот", "ПН-ВС с 09:00 до 21:00", 15.2);
        park1.printPark();
